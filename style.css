@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com');
+.header{
+display:flex;
+justify-content: space-between;
+align-items: center;
+  font-family: 'Russo One', sans-serif;
+  color: rgba(159, 199, 245, 1);
+}
+header{
+
+height: 100px;
+width: 100%;
+background-color:rgba(2, 47, 91, 1) ;
+
+}
+.menu{
+color: rgba(159, 199, 245, 1);
+display: flex;
+width: 30%;
+justify-content: space-between;
+  font-family: 'Russo One', sans-serif;
+}
+.Taste{
+color: rgba(219, 234, 255, 1);
+left: 38%;
+top: 40%;
+  font-family: 'Russo One', sans-serif;
+
+}
+.Taste2{
+
+color: rgba(219, 234, 255, 1);
+left: 37%;
+top: 45%;
+  font-family: 'Russo One', sans-serif;
+}
+button{
+  font-family: 'Russo One', sans-serif;
+background-color:  rgba(159, 199, 245, 1);
+left: 47%;
+top: 55%;;
+padding: 15px;
+border-width: 0px;
+border-radius: 10px;
+
+}
+body{
+
+background-image: url(https://images.pexels.com/photos/1456291/pexels-photo-1456291.jpeg?_gl=1*1tf30ph*_ga*MTc1MjQyNjI2MS4xNzczNzY3Nzcw*_ga_8JE65Q40S6*czE3NzM3Njc3NjkkbzEkZzEkdDE3NzM3Njc3NzIkajU3JGwwJGgw);
+background-size: 100%;
+width: 100%;
+height: 100%;
+margin: 0px;
+}
+.idk_rights{
+color:rgba(159, 199, 245, 1);
+font-family: 'Russo One', sans-serif;
+text-align: center;
+
+}
+.gallery{
+
+border: 3px solid;
+border-color: aquamarine;
+border-radius: 5px;
+padding: 10px;
+width: 300px;
+height: 300px;
+margin-left: 70px;
+margin-right: 70px;
+margin-top: 150px;
+}
+.reg_form{
+border-radius: 10px;
+border: 3px solid;
+border-color: linear-gradient(127deg,rgba(0, 0, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
+height: 400px;
+width: 350px;
+background-color:rgba(159, 199, 245, 1) ;
+position:fixed;
+z-index: 10;
+left:40%;
+top: 150px;
+}
+.menu-element{
+
+  display:flex;
+  color: rgba(159, 199, 245, 1);
+  gap: 10px;
+  z-index: 100;
+  text-decoration: none;
+  font-family: 'Russo One', sans-serif;
+  font-weight: bolder;
+
+}
+input{
+
+width: 300px;
+padding-bottom: 12px;
+padding-top: 12px;
+border-radius: 25px;
+border: 1px solid #ccc;
+outline: none;
+font-size: 16px;
+z-index: 100;
+top: 30%;
+left: 52%;
+transform: translate(-50%, -50%);
+}
+label{
+
+display: block;
+margin-bottom: 5px;
+font-weight: bold;
+position:fixed;
+z-index: 100;
+top: 30%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.input2{
+
+width: 300px;
+padding-bottom: 12px;
+padding-top: 12px;
+border-radius: 25px;
+border: 1px solid #ccc;
+outline: none;
+font-size: 16px;
+z-index: 100;
+top: 40%;
+left: 52%;
+transform: translate(-50%, -50%);
+}
+.submit{
+
+  font-family: 'Russo One', sans-serif;
+background-color:  rgba(109, 139, 255, 1);
+left: 47%;
+top: 55%;;
+padding: 45px;
+border-width: 0px;
+border-radius: 10px;
+z-index: 100;
+}
+footer{
+position:fixed;
+bottom: 0px;
+left:0px;
+  z-index: 100;
+height: 100px;
+width: 100%;
+background-color:rgba(2, 47, 91, 1) ;
+
+}
+main div{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
