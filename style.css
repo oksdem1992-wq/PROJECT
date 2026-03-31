@@ -77,10 +77,7 @@ border-color: linear-gradient(127deg,rgba(0, 0, 255, 1) 0%, rgba(0, 0, 0, 1) 100
 height: 400px;
 width: 350px;
 background-color:rgba(159, 199, 245, 1) ;
-position:fixed;
-z-index: 10;
-left:40%;
-top: 150px;
+margin: 5% auto;
 }
 .menu-element{
 
@@ -102,21 +99,13 @@ border-radius: 25px;
 border: 1px solid #ccc;
 outline: none;
 font-size: 16px;
-z-index: 100;
-top: 30%;
-left: 52%;
-transform: translate(-50%, -50%);
 }
 label{
 
 display: block;
 margin-bottom: 5px;
 font-weight: bold;
-position:fixed;
-z-index: 100;
-top: 30%;
-left: 50%;
-transform: translate(-50%, -50%);
+
 }
 .input2{
 
@@ -127,10 +116,6 @@ border-radius: 25px;
 border: 1px solid #ccc;
 outline: none;
 font-size: 16px;
-z-index: 100;
-top: 40%;
-left: 52%;
-transform: translate(-50%, -50%);
 }
 .submit{
 
@@ -153,22 +138,48 @@ width: 100%;
 background-color:rgba(2, 47, 91, 1) ;
 
 }
+main{
+
+padding-top:5%;
+
+}
 main div{
 
+font-family: 'Russo One', sans-serif;
+color: rgba(219, 234, 255, 1);
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+width: 50%;
+margin: 0 auto;
+border-radius:7px;
+background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4))
+}
+form{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding-top: 45px;
+gap: 20px;
 
 }
-h2{
-color: rgba(219, 234, 255, 1);
-  font-family: 'Russo One', sans-serif;
-  
+form div{
+
+display: flex;
+flex-direction: column;
+gap: 5px;
+
 }
-p{
-  
-color: rgba(219, 234, 255, 1);
-  font-family: 'Russo One', sans-serif;
-  
+form label{
+
+grid-column-start: 1;
+
+}
+form input{
+
+grid-column-start: 2;
+
 }
